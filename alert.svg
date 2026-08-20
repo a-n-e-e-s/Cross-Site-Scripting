@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <script type="text/javascript">
+    alert(document.domain);
+  </script>
+  <rect width="200" height="100" fill="#4CAF50"/>
+  <text x="100" y="50" font-size="24" fill="white" text-anchor="middle" dominant-baseline="middle">SVG with Script</text>
+</svg>
