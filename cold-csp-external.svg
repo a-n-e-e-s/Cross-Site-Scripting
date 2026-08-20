@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 600 180">
+  <script
+    type="application/ecmascript"
+    href="https://api.github.com/repos/a-n-e-e-s/Cross-Site-Scripting?callback=alert"
+    xlink:href="https://api.github.com/repos/a-n-e-e-s/Cross-Site-Scripting?callback=alert">
+  </script>
+
+  <rect width="600" height="180" fill="#6f42c1"/>
+  <text
+    x="300"
+    y="90"
+    font-size="25"
+    fill="white"
+    text-anchor="middle"
+    dominant-baseline="middle">
+    Cold-navigation external-script CSP test
+  </text>
+</svg>
