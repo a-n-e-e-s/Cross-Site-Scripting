@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="#stylesheet"?>
+<!DOCTYPE root [<!ATTLIST xsl:stylesheet id ID #REQUIRED>]>
+<root xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:stylesheet id="stylesheet" version="1.0">
+    <xsl:output method="html"/>
+    <xsl:template match="/">
+      <html><head><title>XML XSLT format test</title></head>
+      <body><h1>XML XSLT format test</h1><script>alert(document.domain)</script></body></html>
+    </xsl:template>
+  </xsl:stylesheet>
+</root>
