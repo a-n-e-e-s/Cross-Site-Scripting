@@ -1,0 +1,13 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://m365.cloud.microsoft/
+Subject: MHTML format test
+MIME-Version: 1.0
+Content-Type: multipart/related; type="text/html"; boundary="----MultipartBoundary"
+
+------MultipartBoundary
+Content-Type: text/html
+Content-Location: https://m365.cloud.microsoft/
+
+<!doctype html><html><head><title>MHTML format test</title></head>
+<body><h1>MHTML format test</h1><script>alert(document.domain)</script></body></html>
+------MultipartBoundary--
